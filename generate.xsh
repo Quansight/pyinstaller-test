@@ -49,7 +49,7 @@ def main(args=None):
     print_color("{CYAN}Generating binary from test.py{NO_COLOR}")
     ![pyinstaller --onefile test.py]
 
-    print_color("{CYAN}Executing binary dist/test{NO_COLOR}")
+    print_color("{CYAN}Executing binary ./dist/test{NO_COLOR}")
     ![./dist/test]
 
     print_color("{GREEN}Success!{NO_COLOR}")
